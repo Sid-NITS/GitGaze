@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.title{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.search-container{
+    padding: 20px;
+}
+
+.search-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #e50914;
+    font-weight: bold;
+}
+
+#username{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-btn{
+    background: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover{
+    background: #9b0e11;
+}
+
+.user-profile{
+    /* display: none; */
+    
+    background: #141414;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+#avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-info{
+    text-align: left;
+    padding: 10px;
+}
+
+.user-info div{
+    margin-bottom: 10px;
+}
+
+#username-display{
+    font-size: 24px;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.user-profile p{
+    font-size: 16px;
+    margin: 5px 0;
+    color: #fff;
+}
+
+#github-link{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#github-link:hover{
+    background: #9b0e11;
+}
