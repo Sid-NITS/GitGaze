@@ -9,6 +9,7 @@
 <body>
     <div class="search-container">
         <h1 class="title">GIT Gaze</h1>
+        <h2 class="sub-title">GitHub Profile Viewer</h2>
         <div class="search-input">
             <label for="username">Enter GitHub Username</label>
             <input type="text" id="username" placeholder="Username">
@@ -16,39 +17,44 @@
         <button id="search-btn">Search</button>
     </div>
     <div class="user-profile" id="profile-container">
-        <img id="avatar" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="User Avatar">
+        <img id="avatar" src="" alt="User Avatar">
         <div class="user-info">
             <div>
                 <label for="username-display">Username</label>
-                <h2 id="username-display">Sid-NITS</h2>
+                <h2 id="username-display"></h2>
             </div>
             <div>
                 <label for="full-name">Full Name</label>
-                <p id="full-name">Siddharth Shankar</p>
+                <p id="full-name"></p>
             </div>
             <div>
                 <label for="bio">Bio</label>
-                <p id="bio">Test Bio for testing the demo product</p>
+                <p id="bio"></p>
+            </div>
+            <div>
+                <label for="company">Company</label>
+                <p id="company"></p>
             </div>
             <div>
                 <label for="location">Location</label>
-                <p id="location">NIT Silchar</p>
+                <p id="location"></p>
             </div>
             <div>
                 <label for="repo-count">Repositories</label>
-                <p id="repo-count">13</p>
+                <p id="repo-count"></p>
             </div>
             <div>
                 <label for="followers-count">Followers</label>
-                <p id="followers-count">2</p>
+                <p id="followers-count"></p>
             </div>
             <div>
                 <label for="following-count">Following</label>
-                <p id="following-count">3</p>
+                <p id="following-count"></p>
             </div>
         </div>
         <a id="github-link" href="" target="_blank">View on GitHub.</a>
     </div>
+    <div id="error-message" class="error-message"></div>
     <script src="script.js"></script>
 </body>
 </html>
