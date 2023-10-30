@@ -3,6 +3,13 @@ document.getElementById("search-btn").addEventListener("click", function () {
     fetchGitHubProfile(username);
 });
 
+document.getElementById("username").addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("search-btn").click();
+  }
+});
+
 function fetchGitHubProfile(username){
     const url = `https://api.github.com/users/${username}`;
     fetch(url)
